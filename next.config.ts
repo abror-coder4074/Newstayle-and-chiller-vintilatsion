@@ -1,7 +1,8 @@
-import type { NextConfig } from "next";
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-export default nextConfig;
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})

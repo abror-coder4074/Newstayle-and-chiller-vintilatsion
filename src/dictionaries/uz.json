@@ -1,0 +1,65 @@
+{
+    "hero": {
+        "title1": "CHILLER VA",
+        "title2": "ISSIQLIK NASOS",
+        "title3": "TIZIMLARINI",
+        "title4": "O'RNATISH",
+        "desc": "Sanoat va tijorat binolari uchun professional yechimlar",
+        "features": [
+            "24/7 servis xizmati",
+            "O'zbekiston bo'ylab o'rnatish",
+            "Kafolatlangan sifat"
+        ],
+        "contactBtn": "BOG'LANISH",
+        "support": "24/7 MIJOZLARGA XIZMAT KO'RSATISH"
+    },
+    "services": {
+        "title": "SANOAT SOVUTISH VA VENTILYATSIYA",
+        "items": [
+            {
+                "title": "Markaziy konditsioner (AHU)",
+                "description": "Quvvati: 50-500 kW. Yirik binolar va zavodlar uchun havoni tozalash, namlash va haroratni boshqarish tizimi.",
+                "img": "/ahu-system.jpg"
+            },
+            {
+                "title": "Tashqi blok (Condensing Unit)",
+                "description": "Quvvati: 20-150 kW. Sanoat sovutish tizimlari uchun yuqori bosimli va samarali tashqi sovutish bloki.",
+                "img": "/condensing-unit.jpg"
+            },
+            {
+                "title": "Vertikal havo haydagich",
+                "description": "Quvvati: 15-80 kW. Joyni tejaydigan, vertikal holatda o'rnatiladigan kuchli ventilyatsiya qurilmasi.",
+                "img": "/vertical-air.jpg"
+            },
+            {
+                "title": "Kanal tipidagi fankoyl",
+                "description": "Quvvati: 5-25 kW. Shift ichiga o'rnatiladigan, shovqinsiz ishlovchi havo tarqatish tizimi.",
+                "img": "/duct-fancoil.jpg"
+            },
+            {
+                "title": "Sanoat ventilyatori",
+                "description": "Quvvati: 30-200 kW. Havoni katta hajmlarda haydash va sirkulyatsiya qilish uchun mo'ljallangan.",
+                "img": "/industrial-fan.jpg"
+            },
+            {
+                "title": "Modulli sovutish markazi",
+                "description": "Quvvati: 100-1000 kW. Murakkab ishlab chiqarish jarayonlari uchun mo'ljallangan yirik modulli tizim.",
+                "img": "/modular-chiller.jpg"
+            }
+        ]
+    },
+    "partners": {
+        "title": "Bizga <span class='text-[#E31E24]'>ishonch</span> bildirganlar",
+        "subtitle": "O'zbekiston bo'ylab yirik loyihalar va davlat ob'ektlari",
+        "projectsCount": "500+ Loyihalar",
+        "moreInfo": "Va yana Namangan shahridagi o'nlab maktablar hamda ijtimoiy soha ob'ektlari..."
+    },
+    "footer": {
+        "ctaTitle": "LOYIHAINGIZNI",
+        "ctaSubtitle": "MUHOKAMA QILAMIZMI?",
+        "phoneLabel": "Telefon",
+        "addressLabel": "Manzil",
+        "addressValue": "Toshkent shahri, Chilonzor tumani, Bunyodkor ko'chasi",
+        "rights": "© 2026 NEW STYLE CHILLER. BARCHA HUQUQLAR HIMOAYALANGAN."
+    }
+}

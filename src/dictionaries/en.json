@@ -1,0 +1,65 @@
+{
+    "hero": {
+        "title1": "INSTALLATION",
+        "title2": "OF CHILLER &",
+        "title3": "HEAT PUMP",
+        "title4": "SYSTEMS",
+        "desc": "Professional solutions for industrial and commercial buildings",
+        "features": [
+            "24/7 service support",
+            "Installation across Uzbekistan",
+            "Guaranteed quality"
+        ],
+        "contactBtn": "CONTACT US",
+        "support": "24/7 CUSTOMER SUPPORT"
+    },
+    "services": {
+        "title": "INDUSTRIAL COOLING AND VENTILATION",
+        "items": [
+            {
+                "title": "Air Handling Unit (AHU)",
+                "description": "Power: 50-500 kW. Air purification and temperature control.",
+                "img": "/ahu-system.jpg"
+            },
+            {
+                "title": "Condensing Unit",
+                "description": "Power: 20-150 kW. High-pressure outdoor unit.",
+                "img": "/condensing-unit.jpg"
+            },
+            {
+                "title": "Vertical Air Handler",
+                "description": "Power: 15-80 kW. Space-saving powerful ventilation unit.",
+                "img": "/vertical-air.jpg"
+            },
+            {
+                "title": "Duct Type Fan Coil",
+                "description": "Power: 5-25 kW. Silent air distribution system.",
+                "img": "/duct-fancoil.jpg"
+            },
+            {
+                "title": "Industrial Fan",
+                "description": "Power: 30-200 kW. For delivery of large volumes of air.",
+                "img": "/industrial-fan.jpg"
+            },
+            {
+                "title": "Modular Cooling Center",
+                "description": "Power: 100-1000 kW. Large-scale modular system.",
+                "img": "/modular-chiller.jpg"
+            }
+        ]
+    },
+    "partners": {
+        "title": "Trusted by <span class='text-[#E31E24]'>our clients</span>",
+        "subtitle": "Large scale projects and government facilities across Uzbekistan",
+        "projectsCount": "500+ Projects",
+        "moreInfo": "And dozens of schools and social facilities in Namangan city..."
+    },
+    "footer": {
+        "ctaTitle": "SHALL WE DISCUSS",
+        "ctaSubtitle": "YOUR PROJECT?",
+        "phoneLabel": "Phone",
+        "addressLabel": "Address",
+        "addressValue": "Bunyodkor Ave, Chilanzar District, Tashkent",
+        "rights": "© 2026 NEW STYLE CHILLER. ALL RIGHTS RESERVED."
+    }
+}
