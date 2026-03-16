@@ -53,16 +53,16 @@ export default function Hero({ dict }: { dict: any }) {
 
                     {/* CONTACTS */}
                     <div className="flex flex-col sm:flex-row gap-6 md:gap-10 items-start sm:items-center">
-                        <a href="tel:+998902570000" className="bg-[#E31E24] text-white px-10 py-5 rounded-full font-black text-xl md:text-2xl uppercase italic shadow-lg hover:scale-105 active:scale-95 transition-all">
+                        <a href="tel:+998912570000" className="bg-[#E31E24] text-white px-10 py-5 rounded-full font-black text-xl md:text-2xl uppercase italic shadow-lg hover:scale-105 active:scale-95 transition-all">
                             {dict.hero.contactBtn}
                         </a>
 
-                        <a href="tel:+998902570000" className="flex items-center gap-4 text-white group cursor-pointer">
+                        <a href="tel:+998912570000" className="flex items-center gap-4 text-white group cursor-pointer">
                             <div className="bg-white/10 p-3 md:p-4 rounded-full group-hover:bg-[#E31E24] transition-colors">
                                 <Phone size={24} />
                             </div>
                             <div>
-                                <p className="text-xl md:text-3xl font-black group-hover:text-[#E31E24] transition-colors">+998 90 257 00 00</p>
+                                <p className="text-xl md:text-3xl font-black group-hover:text-[#E31E24] transition-colors">+998 91 257 00 00</p>
                                 <p className="text-xs md:text-sm text-white/50 uppercase font-bold italic">{dict.hero.support}</p>
                             </div>
                         </a>

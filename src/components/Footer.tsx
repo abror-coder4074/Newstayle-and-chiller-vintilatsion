@@ -27,7 +27,7 @@ export default function Footer({ dict }: { dict: any }) {
                                     <p className="text-white/40 text-xs font-bold uppercase tracking-widest">
                                         {dict.footer?.phoneLabel}
                                     </p>
-                                    <p className="text-white text-xl font-black">+998 90 257 00 00</p>
+                                    <p className="text-white text-xl font-black">+998 91 257 00 00</p>
                                 </div>
                             </a>
 
