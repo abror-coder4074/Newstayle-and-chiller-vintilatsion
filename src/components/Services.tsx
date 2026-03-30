@@ -7,7 +7,6 @@ export default function Services({ dict }: { dict: any }) {
   const [baseUrl, setBaseUrl] = useState("");
 
   useEffect(() => {
-    // Brauzerda ishlayotganimizda asosiy URLni olamiz
     setBaseUrl(window.location.origin);
   }, []);
 
@@ -45,7 +44,6 @@ export default function Services({ dict }: { dict: any }) {
                 <div className="absolute inset-0 bg-gradient-to-t from-[#141414] to-transparent z-10" />
 
                 <img
-                  // Absolute path orqali i18n prefiksini (uz/ru) aylanib o'tamiz
                   src={baseUrl ? `${baseUrl}${item.img}` : item.img}
                   alt={item.title}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"

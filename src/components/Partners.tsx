@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { Building2, School, Hospital, Factory } from "lucide-react";
 
 export default function Partners({ dict }: { dict: any }) {
-    // Kompaniya nomlari tarjima qilinmaydi, shuning uchun ular massivda qoladi
     const clients = [
         { name: "Prezident Maktablari", city: "Namangan", icon: <School size={20} /> },
         { name: "Navro'z Mall", city: "Namangan, Farg'ona, Andijon", icon: <Building2 size={20} /> },

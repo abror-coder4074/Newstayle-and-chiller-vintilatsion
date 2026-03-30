@@ -5,7 +5,6 @@ const dictionaries = {
 };
 
 export const getDictionary = async (locale: string) => {
-    // Agar til ro'yxatda bo'lmasa, uzbekchasini qaytaradi
     const fn = dictionaries[locale as keyof typeof dictionaries] || dictionaries.uz;
     return fn();
 };

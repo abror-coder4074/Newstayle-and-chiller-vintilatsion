@@ -1,7 +1,7 @@
+// layout.tsx
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css"
-
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,13 +13,37 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  title: 'Chiller Uzbekistan | Sanoat sovutish tizimlari narxlari',
-  description: 'O‘zbekistonda chiller sotish va o‘rnatish. 15 yillik tajriba. Eng arzon chiller narxlari va sifatli servis.',
-  keywords: 'chiller uzbekistan, chiller toshkent, sovutish tizimi, chiller narxi, chiller remont',
+export const metadata: Metadata = {
+  title: 'Chiller va Sanoat Sovutish Tizimlari Toshkentda | New Style',
+  description: 'O‘zbekiston bo‘ylab professional chiller o‘rnatish, ta’mirlash va servis xizmati. Hamyonbop narxlar va 15 yillik tajriba. Hoziroq bog‘laning!',
+  keywords: 'chiller o\'rnatish Toshkent, sanoat sovutish tizimlari, chiller narxi Uzbekistan, fankoyl o\'rnatish, issiqlik nasosi narxi, chiller remont, industrial cooling Tashkent',
+  alternates: {
+    canonical: '/',
+    languages: {
+      'uz-UZ': '/uz',
+      'ru-RU': '/ru',
+      'en-US': '/en',
+    },
+  },
+  openGraph: {
+    title: 'Chiller va Sanoat Sovutish Tizimlari | New Style',
+    description: 'Toshkentda chiller va ventilyatsiya tizimlarini loyihalash va o\'rnatish.',
+    type: 'website',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'New Style Chiller Uzbekistan',
+      },
+    ],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 }
 
-// RootLayout async bo'lishi shart
 export default async function RootLayout({
   children,
   params,
@@ -27,13 +51,11 @@ export default async function RootLayout({
   children: React.ReactNode;
   params: Promise<{ lang: string }>;
 }) {
-
-  const resolvedParams = await params;
-  const lang = resolvedParams.lang || "uz";
+  const { lang } = await params;
 
   return (
-    <html lang={lang}>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#FDFDFD]`}>
+    <html lang={lang || "uz"}>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>

@@ -7,7 +7,6 @@ import { getDictionary } from "../../lib/dictionary";
 import LangSwitcher from "../../components/LangSwitcher";
 import Hero from "../../components/Hero";
 import Services from "../../components/Services";
-// 1. Partners komponentini import qilamiz
 import Partners from "../../components/Partners";
 import Footer from "@/src/components/Footer";
 
@@ -23,12 +22,10 @@ export default function Home({ params }: { params: Promise<{ lang: string }> }) 
 
   return (
     <main className="bg-[#0D0D0D] text-white">
-      {/* TIL ALMASHTIRGICH */}
       <div className="fixed top-6 right-6 md:top-10 md:right-12 z-[100]">
         <LangSwitcher />
       </div>
 
-      {/* SIDEBAR */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -45,11 +42,9 @@ export default function Home({ params }: { params: Promise<{ lang: string }> }) 
         </div>
       </motion.div>
 
-      {/* BO'LIMLAR */}
       <Hero dict={dict} />
       <Services dict={dict} />
 
-      {/* 2. Mana bu yerga Partners bo'limini qo'shdik */}
       <Partners dict={dict} />
       <Footer dict={dict} />
 
