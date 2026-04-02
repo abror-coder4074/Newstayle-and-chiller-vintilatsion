@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://newstayle-and-chiller-vintilatsion.vercel.app/</loc>
+    <loc>https://newstylechiller.uz/</loc>
     <lastmod>2026-03-30</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://newstayle-and-chiller-vintilatsion.vercel.app/uz</loc>
+    <loc>https://newstylechiller.uz/uz</loc>
     <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://newstayle-and-chiller-vintilatsion.vercel.app/ru</loc>
+    <loc>https://newstylechiller.uz/ru</loc>
     <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://newstayle-and-chiller-vintilatsion.vercel.app/en</loc>
+    <loc>https://newstylechiller.uz/en</loc>
     <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 </urlset>
