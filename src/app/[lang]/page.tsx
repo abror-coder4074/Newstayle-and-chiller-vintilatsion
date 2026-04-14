@@ -32,7 +32,7 @@ export default function Home({ params }: { params: Promise<{ lang: string }> }) 
         className="fixed bottom-0 left-0 w-full md:w-auto md:left-6 md:bottom-10 z-50 bg-black/60 md:bg-transparent backdrop-blur-lg md:backdrop-blur-none border-t border-white/10 md:border-none py-4 md:py-0"
       >
         <div className="flex md:flex-col items-center justify-center gap-8 md:gap-6">
-          <a href="https://instagram.com/newstyle_nam" target="_blank" className="text-white/60 hover:text-[#E31E24] transition-colors">
+          <a href="https://www.instagram.com/chiller.newstyle/" target="_blank" className="text-white/60 hover:text-[#E31E24] transition-colors">
             <Instagram size={28} />
           </a>
           <a href="https://t.me/NewStylenam" target="_blank" className="text-white/60 hover:text-[#0088cc] transition-colors">
